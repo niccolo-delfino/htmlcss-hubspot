@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-  width: 80%;
+  width: 70%;
   height: 100%;
   margin: auto;
 }
@@ -66,7 +66,7 @@ nav .nav-top-right li, nav .nav-bottom-right li{
   padding-left: 20px;
 }
 
-nav .nav-top-right a{
+nav .nav-top-right a, .jumbotron-text a{
   text-decoration: none;
 }
 
@@ -90,4 +90,22 @@ header .jumbotron{
   background-color: #FFF4EF;
   background-position: right;
   background-repeat: no-repeat;
+}
+
+.jumbotron-text{
+  width: 40%;
+  padding-top: 40px;
+}
+
+.jumbotron-text h1{
+  font-size: 50px;
+}
+
+.jumbotron-text h1, p, a{
+  padding-bottom: 30px;
+}
+
+.jumbotron-text .jumbotron-text-low{
+  font-size: 11px;
+  padding-top: 30px;
 }
