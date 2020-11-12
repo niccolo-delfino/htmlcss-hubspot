@@ -90,6 +90,7 @@ header .jumbotron{
   background-color: #FFF4EF;
   background-position: right;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .jumbotron-text{
@@ -108,4 +109,14 @@ header .jumbotron{
 .jumbotron-text .jumbotron-text-low{
   font-size: 11px;
   padding-top: 30px;
+}
+
+.jumbotron-bar{
+  width: 100%;
+  height: 60px;
+  background-color: #AFEBE4;
+  border-top: 3px solid #33475B;
+  border-bottom: 3px solid #33475B;
+  position: absolute;
+  bottom: 0px;
 }
