@@ -26,6 +26,34 @@ body{
   clear: both;
 }
 
+.btn-border{
+  color: #FE775A;
+  border: 1px solid #FE775A;
+  border-radius: 5px;
+  padding: 9px;
+}
+
+.btn-orange{
+  color: white;
+  background-color: #FE775A;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-large{
+  padding: 20px 40px 20px 40px;
+}
+
+.btn-orange:hover{
+  background-color: white;
+  color: #FE775A;
+}
+
+.btn-border:hover{
+  color: white;
+  background-color: #FE775A;
+}
+
 nav .nav-top{
   width: 100%;
   height: 100px;
@@ -103,12 +131,12 @@ header .jumbotron{
 }
 
 .jumbotron-text h1, p, a{
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .jumbotron-text .jumbotron-text-low{
   font-size: 11px;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .jumbotron-bar{
