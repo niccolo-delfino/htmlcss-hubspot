@@ -86,5 +86,8 @@ nav .nav-bottom-right{
 
 header .jumbotron{
   height: 650px;
-  background-color: #FFF2EE;
+  background-image: url('../img/jumbotron.png');
+  background-color: #FFF4EF;
+  background-position: right;
+  background-repeat: no-repeat;
 }
