@@ -13,3 +13,18 @@ body{
   height: 100%;
   margin: auto;
 }
+
+nav .nav-top{
+  height: 100px;
+  background-color: #F4F9FD;
+}
+
+nav .nav-bottom{
+  height: 100px;
+  background-color: lightgreen;
+}
+
+header .jumbotron{
+  height: 650px;
+  background-color: #FFF2EE;
+}
