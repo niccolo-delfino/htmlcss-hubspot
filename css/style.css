@@ -58,16 +58,19 @@ list-style-type: none;
   color: white;
   background-color: #FE775A;
 }
+header, nav{
+display: unset;
+}
 
 nav .nav-top{
   width: 100%;
   height: 100px;
   background-color: #F4F9FD;
   border-bottom: 1px solid #32495B;
-  position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 1; */
 }
 
 nav .nav-top-left, nav .nav-top-right, nav .nav-bottom-left, nav .nav-bottom-right{
@@ -106,8 +109,12 @@ nav .nav-top-right a, .jumbotron-text a, .w-block-up a{
 
 nav .nav-bottom{
   height: 100px;
-  margin-top: 100px;
   background-color: white;
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 }
 
 nav .nav-bottom-left .logo{
@@ -125,7 +132,7 @@ header .jumbotron{
   background-position: right;
   background-repeat: no-repeat;
   position: relative;
-  box-shadow: inset 0 3px 8px rgba(0,0,0,0.2);
+
 }
 
 .jumbotron-text{
