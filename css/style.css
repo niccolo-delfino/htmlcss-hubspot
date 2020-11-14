@@ -293,7 +293,20 @@ header .jumbotron{
   margin-right: 5%;
 }
 
+.blue{
+  height: 700px;
+  background-color: #00B9A8;
+  color: white;
+}
 
+.blue-text{
+  text-align: center;
+}
+
+.blue-text h2{
+  font-size: 40px;
+  padding-bottom: 25px;
+}
 
 
 
