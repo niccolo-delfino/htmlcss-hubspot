@@ -294,13 +294,14 @@ header .jumbotron{
 }
 
 .blue{
-  height: 700px;
-  background-color: #00B9A8;
+  background: linear-gradient(45deg, #00a4bd, #00bda5);
   color: white;
+  padding-bottom: 70px;
 }
 
 .blue-text{
   text-align: center;
+  padding: 40px 0;
 }
 
 .blue-text h2{
@@ -308,10 +309,44 @@ header .jumbotron{
   padding-bottom: 25px;
 }
 
+.square{
+  width: 25%;
+  text-align: center;
+  padding: 25px 0px;
+}
 
+.square h2{
+  font-size: 40px;
+  padding: 15px 0px;
+}
 
+.square h2::after{
+  content: '+';
+  font-size: 20px;
+  font-weight: normal;
+  vertical-align: middle;
+}
 
+.square p{
+  font-size: 12px;
+}
 
+.square:nth-child(2){
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.square:nth-child(3){
+  border-right: 1px solid white;
+}
+
+.row-up .square{
+  border-bottom: 1px solid white;
+}
+
+.row-down .square #app{
+  height: 33px;
+}
 
 
 
