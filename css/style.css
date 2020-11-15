@@ -351,7 +351,7 @@ header .jumbotron{
 .start{
   background-color: white;
 
-  height: 700px;
+  /* height: 700px; */
 }
 
 .start-up{
@@ -423,12 +423,37 @@ header .jumbotron{
   background-image:url('https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/VMware_logo_gry_RGB_300dpi@2x.png');
 }
 
+.start-down{
+  padding-top: 60px;
+}
 
+.start-down-left{
+  width: 40%;
+}
 
+.start-down-left h2{
+  font-size: 40px;
+  padding-bottom: 40px;
+}
 
+.start-down-left p{
+  font-weight: normal;
+  padding-bottom: 60px;
+}
 
+.start-down-left-text{
+  font-size: 12px;
+  padding-top: 60px;
+}
 
+.start-down-right{
+  width: 60%;
+  text-align: right;
+}
 
+.start-down-right img{
+  height: 350px;
+}
 
 
 
