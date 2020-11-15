@@ -508,7 +508,19 @@ footer a{
   padding-bottom: 30px;
 }
 
+.footer-center{
+  text-align: center;
+}
 
+.footer-center .languages li{
+  display: inline;
+  margin-right: 20px;
+}
+
+.languages hr{
+  margin-top: 20px;
+  border: 1px solid lightgrey;
+}
 
 
 
