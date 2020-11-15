@@ -15,6 +15,15 @@ body{
 list-style-type: none;
 }
 
+ a{
+  text-decoration: none;
+ }
+
+a:hover{
+  color: lightblue;
+  text-decoration: underline;
+}
+
 .container{
   width: 70%;
   height: 100%;
@@ -59,11 +68,13 @@ list-style-type: none;
 .btn-orange:hover{
   background-color: white;
   color: #FE775A;
+  text-decoration: underline;
 }
 
 .btn-border:hover{
   color: white;
   background-color: #FE775A;
+  text-decoration: underline;
 }
 
 .btn-grey:hover{
@@ -72,10 +83,16 @@ list-style-type: none;
   border: 1px solid lightgrey;
   border-radius: 5px;
   padding: 10px;
+  text-decoration: underline;
 }
 
 header, nav{
 display: unset;
+}
+
+nav a{
+  text-decoration: none;
+  color: #32495B;
 }
 
 nav .nav-top{
@@ -548,6 +565,9 @@ footer a{
   color: lightgrey;
 }
 
+.footer-bottom-right a:hover{
+  color: lightblue;
+}
 
 
 
