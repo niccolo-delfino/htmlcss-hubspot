@@ -45,6 +45,13 @@ list-style-type: none;
   padding: 10px;
 }
 
+.btn-grey{
+  color: #2D3E50;
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 .btn-large{
   padding: 20px 40px 20px 40px;
 }
@@ -58,6 +65,15 @@ list-style-type: none;
   color: white;
   background-color: #FE775A;
 }
+
+.btn-grey:hover{
+  color: lightgrey;
+  background-color: #2D3E50;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 header, nav{
 display: unset;
 }
@@ -454,6 +470,55 @@ header .jumbotron{
 .start-down-right img{
   height: 350px;
 }
+
+footer{
+  background-color: #2D3E50;
+}
+
+footer h2{
+  color: white;
+  padding: 30px 0px;
+}
+
+footer a{
+  text-decoration: none;
+  color: lightgrey;
+  padding: 0;
+}
+
+.footer-up{
+  margin-bottom: 60px;
+}
+
+.footer-up .footer-up-text li{
+  padding-bottom: 20px;
+}
+
+.footer-up .footer-up-text{
+  width: 25%;
+}
+
+.footer-up .footer-up-text i{
+  padding-top: 10px;
+  padding-right: 30px;
+  color: lightgrey;
+}
+
+#last-a{
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
