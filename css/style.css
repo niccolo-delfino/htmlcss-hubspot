@@ -424,36 +424,20 @@ header .jumbotron{
   margin-bottom: 25px;
 }
 
-#wwf{
-  background-image: url('https://f.hubspotusercontent00.net/hubfs/53/1200px-WWF_logo_svg%20(1).png');
+.start-up-right-img {
+  margin-bottom: 10px;
+  padding-right: 60px;
+  text-align: right;
 }
 
-#trello{
-  background-image: url('https://f.hubspotusercontent00.net/hubfs/53/trello-logo-blue%20(1).png');
+.start-up-right-img li{
+  display: inline;
+  margin-left: 30px;
 }
 
-#g2{
-  background-image: url('https://f.hubspotusercontent00.net/hubfs/53/1200px-G2_Crowd_logo.svg.png');
-}
-
-#smonkey{
-  background-image:url('https://www.hubspot.com/hubfs/assets/hubspot.com/homepage/Vertical_Sabaeus_RGB.svg');
-}
-
-#subaru{
-  background-image:url('https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Subaru_Logo_v2_186x63@2x.png');
-}
-
-#sound{
-  background-image:url('https://f.hubspotusercontent00.net/hubfs/53/soundcloud.png');
-}
-
-#class{
-  background-image:url('https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Classpass-logo@2x.png');
-}
-
-#wmw{
-  background-image:url('https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/VMware_logo_gry_RGB_300dpi@2x.png');
+.start-up-right-img img{
+  width: 100px;
+  vertical-align: middle;
 }
 
 .start-down{
