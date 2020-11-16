@@ -150,8 +150,8 @@ nav .nav-bottom{
 
   /* position: sticky;
   top: 0;
-  z-index: 1;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.2); */
+  z-index: 1; */
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 }
 
 nav .nav-bottom-left .logo{
@@ -568,11 +568,50 @@ footer a{
 }
 /* /footer */
 
+.chat{
+  width: 230px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
 
+.chat-bot{
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px 15px 25px;
+  position: relative;
+  font-weight: normal;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
 
+.chat-bot img{
+  height: 50px;
+  position: absolute;
+  top:0;
+  right: 30%;
+  transform: translate(-50%, -50%);
+}
 
+.chat-bot i{
+  color: lightblue;
+  position: absolute;
+  top:15px;
+  right:15px;
+}
+.chat-img{
+  text-align: right;
+  margin-top: 20px;
+}
 
-
+.chat-img i{
+  font-size: 30px;
+  color: white;
+  background-color: #33475B;
+  border-radius: 50%;
+  padding:15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
 
 
 
